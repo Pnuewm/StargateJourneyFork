@@ -4,6 +4,7 @@
 	{
 		"front": "sgjourney:block/crystallizer_front",
 		"side": "sgjourney:block/crystallizer_side",
-		"top": "sgjourney:block/crystallizer_top"
+		"top": "sgjourney:block/crystallizer_top",
+                "bottom": "sgjourney:block/crystallizer_bottom"
 	}
 }

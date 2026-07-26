@@ -4,6 +4,7 @@
 	{
 		"front": "sgjourney:block/naquadah_liquidizer_front",
 		"side": "sgjourney:block/naquadah_liquidizer_side",
-		"top": "sgjourney:block/naquadah_liquidizer_top"
+		"top": "sgjourney:block/naquadah_liquidizer_top",
+                "bottom": "sgjourney:block/naquadah_liquidizer_bottom"
 	}
 }
