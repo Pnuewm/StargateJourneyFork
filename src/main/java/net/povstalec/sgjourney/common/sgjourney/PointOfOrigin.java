@@ -58,7 +58,8 @@ public record PointOfOrigin(ResourceKey<ClientPointOfOrigin> clientPointOfOrigin
 	
 	public static ResourceKey<PointOfOrigin> randomPointOfOrigin(MinecraftServer server, ResourceKey<Level> dimension)
 	{
-		return Universe.get(server).getRandomPointOfOriginFromDimension(dimension, new Random().nextLong());
+		//return Universe.get(server).getRandomPointOfOriginFromDimension(dimension, new Random().nextLong());
+		return PointOfOrigin.fromDimension(server, dimension);
 	}
 	
 	public static MutableComponent makeComponent(@Nullable ResourceKey<PointOfOrigin> pointOfOrigin)
