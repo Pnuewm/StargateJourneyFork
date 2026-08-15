@@ -1,0 +1,11 @@
+{
+	"name": "solar_system.sgjourney.aether",
+	"point_of_origin": "sgjourney:reflection",
+	"symbols": "sgjourney:galaxy_milky_way",
+	"symbol_prefix": 26,
+	"extragalactic_address": {"symbols": [7, 8, 9, 10, 11, 12, 13], "randomizable": true},
+	"galactic_addresses":
+	{
+		"sgjourney:milky_way": {"address": {"symbols": [7, 8, 9, 10, 11, 12], "randomizable": true}}
+	}
+}
